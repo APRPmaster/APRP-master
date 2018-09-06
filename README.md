@@ -18,31 +18,49 @@ The two relevant files to run are main.py (for regular tree simulations) and dat
 We include below instructions for running the simulations in paper APRP: An Anonymous Propagation Method in Bitcoin Network.
 
 *Figure 6b*: Trickle vs. APRP(Trickle) estimation on d-regular trees, theta = 1.
+
 `python main.py -t 5000 -s 0 -w -e 0`
+
 `python main.py -t 5000 -s 0 -w -e 1`
+
 `python main.py -t 5000 -s 2 -w -e 0`
+
 `python main.py -t 5000 -s 2 -w -e 1`
 
 *Figure 6c*: Diffusion vs. APRP(Diffusion) estimation on d-regular trees, theta = 1.
+
 `python main.py -t 5000 -s 1 -w -e 0`
+
 `python main.py -t 5000 -s 1 -w -e 1`
+
 `python main.py -t 5000 -s 3 -w -e 0`
+
 `python main.py -t 5000 -s 3 -w -e 1`
 
 *Figure 6d*: Diffusion vs. APRP(Diffusion) estimation on 4-regular trees, sweep theta
+
 `python main.py -t 5000 -s 0 -w -e 0 -d 4 -q`
+
 `python main.py -t 5000 -s 0 -w -e 1 -d 4 -q`
+
 `python main.py -t 5000 -s 2 -w -e 0 -d 4 -q`
+
 `python main.py -t 5000 -s 2 -w -e 1 -d 4 -q`
 
 *Figure 6e*: Diffusion vs. APRP(Diffusion) estimation on 4-regular trees, sweep theta
+
 `python main.py -t 5000 -s 1 -w -e 0 -d 4 -q`
+
 `python main.py -t 5000 -s 1 -w -e 1 -d 4 -q`
+
 `python main.py -t 5000 -s 3 -w -e 0 -d 4 -q`
+
 `python main.py -t 5000 -s 3 -w -e 1 -d 4 -q`
 
 *Figure 6f*: Accuracy estimation over real Bitcoin network
+
 `python dataset_main.py -t 5000 -s 0 -w -e 0`
+
 `python dataset_main.py -t 5000 -s 2 -w -e 0`
 
 Reference:
